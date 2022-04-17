@@ -1,0 +1,33 @@
+1) eshopuz uchun DigitalOcean paroli :
+
+azizbek1529
+
+
+2) azizbekgulomov.uz paroli:
+
+login : aziz
+parol: azizbek1529
+
+
+!!! Yangilanish O`zgarish bo`lganda !!!
+
+1) cmd oynasida :
+
+ssh root@167.71.45.62 -> IP adress DigitalOceandan
+uning paroli : @Azizbek1py
+
+su azizbek (foydalanuvchi kiritgan ism)
+
+cd /home/azizbek/myproject/
+
+
+git pull origin main
+
+
+sudo systemctl start gunicorn
+
+sudo systemctl restart gunicorn
+
+sudo systemctl restart nginx
+
+
