@@ -1,3 +1,36 @@
+ADMIN USER:
+
+Azizbek2002
+
+ADMIN PAROL:
+
+azizbek1529
+
+
+__________________________________________________________________________________________
+
+admin panel superuser o'chib ketganda:
+
+1) cd ..
+
+2) cd home
+
+3) cd azizbek
+
+4) cd myproject
+
+5) python3 manage.py createsuperuser
+
+6) source env/bin/activate
+
+7) login: Azizbek2002
+
+8) parol: azizbek1529
+
+
+
+____________________________________________________________________________________________
+
 1) eshopuz uchun DigitalOcean paroli :
 
 azizbek1529
@@ -8,7 +41,7 @@ azizbek1529
 login : aziz
 parol: azizbek1529
 
-
+____________________________________________________________________________________
 !!! Yangilanish O`zgarish bo`lganda !!!
 
 1) cmd oynasida :
@@ -29,5 +62,8 @@ sudo systemctl start gunicorn
 sudo systemctl restart gunicorn
 
 sudo systemctl restart nginx
+
+
+____________________________________________________________________________________
 
 
