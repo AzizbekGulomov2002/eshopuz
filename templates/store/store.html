@@ -1,7 +1,7 @@
 {% extends 'store/main.html' %}
 
 {% block title %}
-    Store Page | {{block.super}}
+    Xarid bo'limi | {{block.super}}
 {% endblock title %}
     
     {% block content %}
@@ -10,7 +10,7 @@
     {% for product in products %}
       
    <br><br>
-    <div class="col-3">
+    <div class="col-sm-3">
         <img src="{{product.image.url}}" alt="" class="thumbnail">
         <div class="box-element product">
      <h6><strong>{{product.name}}</strong></h6>
