@@ -8,7 +8,7 @@ for (i = 0; i < updateBtns.length; i++) {
 		
 
 		if (user == 'AnonymousUser'){
-			alert("Agar mahsulot xarid qilmoqchi bo'lsangiz,Ro'yxatdan o'ting...");
+			alert("Agar mahsulot xarid qilmoqchi bo'lsangiz, Registratsiya bo'limidan ro'yxatdan o'ting !");
 		}else{
 			updateUserOrder(productId,action)
 		}
